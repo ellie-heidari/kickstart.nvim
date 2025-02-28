@@ -87,7 +87,7 @@ P.S. You can delete this when you're done too. It's your config now! :)
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
-vim.g.mapleader = ','
+vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
@@ -1027,5 +1027,5 @@ require('lazy').setup({
 --
 --
 -- Keybindings for coc.nvim autocompletion
-vim.api.nvim_set_keymap('i', '<Tab>', 'coc#refresh()', { silent = true, expr = true })
-vim.api.nvim_set_keymap('i', '<CR>', 'coc#confirm()', { silent = true, expr = true })
+--vim.api.nvim_set_keymap('i', '<Tab>', 'coc#refresh()', { silent = true, expr = true })
+--vim.api.nvim_set_keymap('i', '<CR>', 'coc#confirm()', { silent = true, expr = true })
